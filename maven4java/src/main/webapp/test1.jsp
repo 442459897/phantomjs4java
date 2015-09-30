@@ -8,7 +8,9 @@
 
 
 </head>
-<body><%=request.getAttribute("img_path") %>
+<body>
+<div>Detail Informations:</div>
+<%=request.getAttribute("img_path") %>
 	<form action="Url2PictureServlet">
 		<table>
 			<tr>
